@@ -3,9 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { BiographyComponent } from './biography/biography.component' ;
 import { ContactInformationComponent } from './contact-information/contact-information.component' ;
+import { HomeComponent } from './home/home.component' ;
 import { PersonalInformationComponent } from './personal-information/personal-information.component' ;
 
 const routes: Routes = [
+  { path: '', component: HomeComponent } ,
   { path: 'biography' , component: BiographyComponent } ,
   { path: 'contactInformation' , component: ContactInformationComponent } ,
   { path: 'personalInformation' , component: PersonalInformationComponent }
