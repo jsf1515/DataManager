@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { BiographyComponent } from './biography/biography.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
+import { ContactInformationComponent } from './contact-information/contact-information.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PersonalInformationComponent } from './personal-information/personal-in
     NavbarComponent,
     ContactInfoComponent,
     BiographyComponent,
-    PersonalInformationComponent
+    PersonalInformationComponent,
+    ContactInformationComponent
   ],
   imports: [
     BrowserModule,
