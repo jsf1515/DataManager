@@ -8,6 +8,7 @@ import { BiographyComponent } from './biography/biography.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
 import { HomeComponent } from './home/home.component';
+import { ErrorsComponent } from './errors/errors.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     BiographyComponent,
     PersonalInformationComponent,
     ContactInformationComponent,
-    HomeComponent
+    HomeComponent,
+    ErrorsComponent
   ],
   imports: [
     BrowserModule,
