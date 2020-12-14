@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent } ,
   { path: 'biography' , component: BiographyComponent } ,
   { path: 'contactInformation' , component: ContactInformationComponent } ,
+  { path: 'error' , component: ErrorsComponent } ,
   { path: 'personalInformation' , component: PersonalInformationComponent } ,
   { path: '**' , component: ErrorsComponent }
 ];
