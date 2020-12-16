@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'biography' , component: BiographyComponent } ,
   { path: 'contactInformation' , component: ContactInformationComponent } ,
   { path: 'error' , component: ErrorsComponent } ,
+  { path: 'home' , component: HomeComponent } ,
   { path: 'personalInformation' , component: PersonalInformationComponent } ,
   { path: '**' , component: ErrorsComponent }
 ];
