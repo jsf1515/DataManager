@@ -12,6 +12,15 @@ main {
     padding-bottom: 1rem ;
 }
 
-.padded-image{
+.padded-image {
     padding: 20px ;
+}
+
+.td-center {
+    text-align: center ;
+}
+
+.add-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem ;
 }

@@ -1,4 +1,92 @@
 
-<div class="container">
-    <p class="alert alert-primary">Etiam eget consequat leo. Duis mollis, augue eget fringilla semper, nibh orci feugiat turpis, aliquet pulvinar dui neque tempor odio. Sed in dui facilisis, malesuada urna et, luctus justo. Proin a mi a odio mattis congue. Sed quis nulla eros. Integer mollis, odio at pharetra pellentesque, sem magna luctus magna, et dignissim tellus quam at sem. Integer ut lacus nec risus viverra mollis sit amet sodales est. Phasellus at nulla eu nisl convallis cursus sed ut sem. Suspendisse rutrum nisi massa, sit amet scelerisque purus mattis nec.</p>
-</div><!-- /.container -->
+<div class="container-fluid">
+    <p class="alert alert-primary">Explain about this section.  Etiam eget consequat leo. Duis mollis, augue eget fringilla semper, nibh orci feugiat turpis, aliquet pulvinar dui neque tempor odio. Sed in dui facilisis, malesuada urna et, luctus justo. Proin a mi a odio mattis congue. Sed quis nulla eros. Integer mollis, odio at pharetra pellentesque, sem magna luctus magna, et dignissim tellus quam at sem. Integer ut lacus nec risus viverra mollis sit amet sodales est. Phasellus at nulla eu nisl convallis cursus sed ut sem. Suspendisse rutrum nisi massa, sit amet scelerisque purus mattis nec.</p>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="emailAddresses-tab" data-bs-toggle="tab" href="#emailAddresses" role="tab" aria-controls="emailAddresses" aria-selected="true">Email Addresses</a>
+        </li><!-- /.nav-item -->
+
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="phoneNumbers-tab" data-bs-toggle="tab" href="#phoneNumbers" role="tab" aria-controls="phoneNumbers" aria-selected="false">Phone Numbers</a>
+        </li><!-- /.nav-item -->
+
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="physicalAddresses-tab" data-bs-toggle="tab" href="#physicalAddresses" role="tab" aria-controls="physicalAddresses" aria-selected="false">Physical Addresses</a>
+        </li><!-- /.nav-item -->
+    </ul><!-- /.nav .nav-tabs -->
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="emailAddresses" role="tabpanel" aria-labelledby="emailAddresses-tab">
+            <p>1</p>
+        </div>
+
+        <div class="tab-pane fade" id="phoneNumbers" role="tabpanel" aria-labelledby="phoneNumbers-tab">
+            <button type="button" class="btn btn-primary add-btn">Add a Phone Number</button>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Phone Number</th>
+                        <th>Phone Number Type</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>(555) 555-5555</td>
+                        <td>Cell Phone</td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>(123) 456-5555</td>
+                        <td>Home Phone</td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+                </tbody>
+            </table><!-- /.table -->
+        </div>
+
+        <div class="tab-pane fade" id="physicalAddresses" role="tabpanel" aria-labelledby="physicalAddresses-tab">
+            <br>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Zip Code</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>123 Fake St.</td>
+                        <td>Carlisle</td>
+                        <td>PA</td>
+                        <td>17013</td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>(123) 456-5555</td>
+                        <td>Home Phone</td>
+                        <td>PA</td>
+                        <td>12345</td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div><!-- /.tab-content -->
+</div><!-- /.container-fluid -->
