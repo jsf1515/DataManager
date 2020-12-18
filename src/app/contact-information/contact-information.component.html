@@ -18,7 +18,34 @@
 
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="emailAddresses" role="tabpanel" aria-labelledby="emailAddresses-tab">
-            <p>1</p>
+            <button type="button" class="btn btn-primary add-btn">Add an Email Address</button>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Email Address</th>
+                        <th class="td-center">Preferred Contact</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>some.person@emailOrganization.email</td>
+                        <td class="td-center"><img src="assets/img/check2-circle.svg" alt="" width="20" height="20"></td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
+                        <td>another.email.address@mailHandlers.email</td>
+                        <td class="td-center">&nbsp;</td>
+                        <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div class="tab-pane fade" id="phoneNumbers" role="tabpanel" aria-labelledby="phoneNumbers-tab">
@@ -55,10 +82,11 @@
         <div class="tab-pane fade" id="physicalAddresses" role="tabpanel" aria-labelledby="physicalAddresses-tab">
             <br>
 
-            <table class="table table-bordered">
+            <table class="table table-hover align-middle">
                 <thead>
                     <tr>
                         <th>&nbsp;</th>
+                        <th>Type</th>
                         <th>Address</th>
                         <th>City</th>
                         <th>State</th>
@@ -70,19 +98,21 @@
                 <tbody>
                     <tr>
                         <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
-                        <td>123 Fake St.</td>
-                        <td>Carlisle</td>
+                        <td>Home Address</td>
+                        <td>123 Fake St<br>Box 10</td>
+                        <td>Mechanicsburg</td>
                         <td>PA</td>
-                        <td>17013</td>
+                        <td>17055</td>
                         <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
                     </tr>
 
                     <tr>
                         <td class="td-center"><img src="assets/img/pencil.svg" alt="" width="20" height="20"></td>
-                        <td>(123) 456-5555</td>
-                        <td>Home Phone</td>
+                        <td>Office Address</td>
+                        <td>Rm 74, Bldg 322</td>
+                        <td>Carlisle</td>
                         <td>PA</td>
-                        <td>12345</td>
+                        <td>17013</td>
                         <td class="td-center"><img src="assets/img/trash.svg" alt="" width="20" height="20"></td>
                     </tr>
                 </tbody>
